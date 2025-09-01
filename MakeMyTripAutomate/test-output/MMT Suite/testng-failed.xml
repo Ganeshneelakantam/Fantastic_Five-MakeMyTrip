@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MMT Suite]">
+  <test thread-count="5" name="Cab Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.makemytrip.runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.makemytrip.runner.TestRunner -->
+    </classes>
+  </test> <!-- Cab Test(failed) -->
+</suite> <!-- Failed suite [MMT Suite] -->
